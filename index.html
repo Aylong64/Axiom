@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Axiom Chatapp</title>
+    <!-- Boxicons CSS -->
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="header">
+            <div class="flex-top">
+                <div class="flex-3">
+                    <div class="text">Axiom</div>
+                </div>
+                <!-- icons goes here -->
+                <div class="icons">
+                    <i class='bx bx-search' id="open_search"></i>
+                    <i class='bx bx-dots-vertical-rounded'></i>
+                </div>
+                <div class="search-box">
+                    <div class="eInput">
+                        <input type="text" name="search" placeholder="Search Names" autocomplete="off">
+                    </div>
+                    <div class="icon2">
+                        <i class="bx bx-x"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="body-chat">
+            <div class="mail-banner">
+                <div class="mail-slot">
+                    <div class="slot all active" data-name="all">All <span>8</span></div>
+                    <div class="slot read" data-name="read">Read</div>
+                    <div class="slot unread" data-name="unread">Unread</div>
+                </div>
+            </div>
+            <div class="mail-body">
+                <div class="mails">
+                    <div class="mail" data-name="unread">
+                        <div class="c2">
+                            <div class="img">
+                                <img src="images/jayde.png" alt="">
+                            </div>
+                        </div>
+                        <div class="mail-info">
+                            <div class="name">Jayde</div>
+                            <p>The colors are not sharp like that.</p>
+                        </div>
+                        <div class="time_n_numb">
+                            <div class="time">01:02 PM</div>
+                            <div class="numb">3</div>
+                        </div>
+                    </div>
+                    <!--  -->
+                    <div class="mail" data-name="unread">
+                        <div class="c2">
+                            <div class="img">
+                                <img src="images/img1.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="mail-info">
+                            <div class="name">Ruona E</div>
+                            <p>Yup,trying to sleep train myself.</p>
+                        </div>
+                        <div class="time_n_numb">
+                            <div class="time">10:53 AM</div>
+                            <div class="numb">1</div>
+                        </div>
+                    </div>
+                    <!--  -->
+                    <div class="mail" data-name="read">
+                        <div class="c2">
+                            <div class="img">
+                                <img src="images/jeff.png" alt="">
+                            </div>
+                        </div>
+                        <div class="mail-info">
+                            <div class="name">Jeffery</div>
+                            <p>it is just frontend mentor.</p>
+                        </div>
+                        <div class="time_n_numb">
+                            <div class="time">06:30 PM</div>
+                        </div>
+                    </div>
+                    <!--  -->
+                    <div class="mail" data-name="read">
+                        <div class="c2">
+                            <div class="img">
+                                <img src="images/Nonso.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="mail-info">
+                            <div class="name">Acen</div>
+                            <p>Tell Ore we gon split that shit.</p>
+                        </div>
+                        <div class="time_n_numb">
+                            <div class="time">12:01 PM</div>
+                        </div>
+                    </div>
+                    <!--  -->
+                    <div class="mail" data-name="unread">
+                        <div class="c2">
+                            <div class="img">
+                                <img src="images/amy.png" alt="">
+                            </div>
+                        </div>
+                        <div class="mail-info">
+                            <div class="name">Amy</div>
+                            <p>How are you feeling now?</p>
+                        </div>
+                        <div class="time_n_numb">
+                            <div class="time">12:31 PM</div>
+                            <div class="numb">1</div>
+                        </div>
+                    </div>
+                    <!--  -->
+                    <div class="mail" data-name="unread">
+                        <div class="c2">
+                            <div class="img">
+                                <img src="images/Amoke2.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="mail-info">
+                            <div class="name">Amoke</div>
+                            <p>I have a target of sales.</p>
+                        </div>
+                        <div class="time_n_numb">
+                            <div class="time">2:46 AM</div>
+                            <div class="numb">3</div>
+                        </div>
+                    </div>
+                    <!--  -->
+                    <div class="mail" data-name="unread">
+                        <div class="c2">
+                            <div class="img">
+                                <img src="images/yimi.png" alt="">
+                            </div>
+                        </div>
+                        <div class="mail-info">
+                            <div class="name">Yimika</div>
+                            <p>I am waiting for Season 2.</p>
+                        </div>
+                        <div class="time_n_numb">
+                            <div class="time">8:50 PM</div>
+                            <div class="numb">2</div>
+                        </div>
+                    </div>
+                    <!--  -->
+                    <div class="mail" data-name="read">
+                        <div class="c2">
+                            <div class="img">
+                                <img src="images/Oreoluwa.png" alt="">
+                            </div>
+                        </div>
+                        <div class="mail-info">
+                            <div class="name">Oreoluwa</div>
+                            <p>How does the cake taste?</p>
+                        </div>
+                        <div class="time_n_numb">
+                            <div class="time">2:39 AM</div>
+                        </div>
+                    </div>
+                    <!--  -->
+                </div>
+            </div>
+        </div>
+        <div class="button">
+            <button><i class='bx bx-plus'></i> New Chat</button>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
